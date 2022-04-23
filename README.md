@@ -2,6 +2,7 @@
 * Next.js
 * Tailwind CSS
 
+## Live - https://earth-day-sanyampunia.vercel.app/
 
 ![image](https://user-images.githubusercontent.com/35108041/164700718-08da9a63-0db6-4c54-9870-9ef990b5a03b.png)
 
