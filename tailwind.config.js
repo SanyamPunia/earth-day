@@ -9,13 +9,7 @@ module.exports = {
       'poppins': "Poppins"
     },
     backgroundImage: {
-      'desertification': "url('../public/desertification-2.png')",
-      'globalWarming': "url('../public/global-warming.jpg')",
-      'oceanAcidification': "url('../public/oceanacidification.png')",
-      'deforestation': "url('../public/deforestation.png')",
-      'overpopulation': "url('../public/overpopulation.jpg')",
-      'plasticPollution': "url('../public/plasticpollution.png')",
-      'wallpaper': "url('../public/kurzgesagt-wallpaper.png')"
+      'wallpaper': "url('/kurzgesagt-wallpaper.png')"
     },
     screens: {
       '2xl': { 'max': '1535px' },
