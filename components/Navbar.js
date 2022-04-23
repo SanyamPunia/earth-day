@@ -6,7 +6,7 @@ const Navbar = () => {
             <Link href="/">
                 <a>Earth</a>
             </Link>
-            <div className="flex gap-20">
+            <div className="flex gap-20 md:hidden">
                 <Link href="/">
                     <a>Contact</a>
                 </Link>

@@ -2,6 +2,7 @@ import Divider from "./Divider"
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import { useState } from "react";
+import Image from "next/image";
 
 const Cause = () => {
     const [openFirst, setOpenFirst] = useState(false);
@@ -23,7 +24,7 @@ const Cause = () => {
                         <p onClick={() => setOpenFirst(true)} className="text-right cursor-pointer text-lg">Read more</p>
 
                         <Modal open={openFirst} onClose={() => setOpenFirst(false)} center>
-                            <img src="desertification-stats.jpg" alt="" />
+                            <Image src="/desertification-stats.jpg" width={500} height={700} />
                         </Modal>
                     </div>
                     <div className="bg-opacity-60 shadow-2xl shadow-blue-500/20 backdrop-filter backdrop-blur-lg p-5 rounded-xl">
@@ -32,7 +33,7 @@ const Cause = () => {
 
                         <p onClick={() => setOpenSecond(true)} className="text-right cursor-pointer text-lg">Read more</p>
                         <Modal open={openSecond} onClose={() => setOpenSecond(false)} center>
-                            <img src="globalwarming-stats.jpg" alt="" />
+                            <Image src="/globalwarming-stats.jpg" width={500} height={700} />
                         </Modal>
                     </div>
                     <div className="bg-opacity-60 shadow-2xl shadow-blue-500/20 backdrop-filter backdrop-blur-lg p-5 rounded-xl">
@@ -41,7 +42,7 @@ const Cause = () => {
 
                         <p onClick={() => setOpenThird(true)} className="text-right cursor-pointer text-lg">Read more</p>
                         <Modal open={openThird} onClose={() => setOpenThird(false)} center>
-                            <img src="deforestation-stats.png" alt="" />
+                            <Image src="/deforestation-stats.png" width={500} height={700} />
                         </Modal>
                     </div>
                     <div className="bg-opacity-60 shadow-2xl shadow-blue-500/20 backdrop-filter backdrop-blur-lg p-5 rounded-xl">
@@ -50,7 +51,7 @@ const Cause = () => {
 
                         <p onClick={() => setOpenFourth(true)} className="text-right cursor-pointer text-lg">Read more</p>
                         <Modal open={openFourth} onClose={() => setOpenFourth(false)} center>
-                            <img src="plasticpollution-stats.jpg" alt="" />
+                            <Image src="/plasticpollution-stats.jpg" width={400} height={700} />
                         </Modal>
                     </div>
                 </div>
