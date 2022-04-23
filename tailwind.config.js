@@ -15,6 +15,7 @@ module.exports = {
       'deforestation': "url('../public/deforestation.png')",
       'overpopulation': "url('../public/overpopulation.jpg')",
       'plasticPollution': "url('../public/plasticpollution.png')",
+      'wallpaper': "url('../public/kurzgesagt-wallpaper.png')"
     },
     screens: {
       '2xl': { 'max': '1535px' },
