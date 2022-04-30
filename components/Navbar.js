@@ -7,10 +7,10 @@ const Navbar = () => {
                 <a>Earth</a>
             </Link>
             <div className="flex gap-20 md:hidden">
-                <Link href="/">
+                <Link href="https://www.sanyam.xyz/">
                     <a>Contact</a>
                 </Link>
-                <Link href="sanyam.xyz">
+                <Link href="/">
                     <a>Blog</a>
                 </Link>
                 <Link href="/">
